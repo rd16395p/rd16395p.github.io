@@ -1,36 +1,71 @@
 <!DOCTYPE html>
 <style>
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ 
+  font-size: 13px;
+}
    .column {
   float: left;
   width: 50%;
   background-color: MistyRose;
   color: white;
 }
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
    }
+   ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #F00;
+}
 </style>
 <html>
 <body>
+<ul>
+  <li><a class="active" href="https://github.com/rd16395p">Main Github Site</a></li>
+  <li><a href="https://github.com/rd16395p/tensormodeltoraspi">Tensorflow Project on a Raspberry Pi</a></li>
+  <li><a href="https://github.com/rd16395p/Detecting-Eye-LesionMircoaneursyms">Detecting Eye Lesions with Deep Neural Networks</a> </li>
+</ul>
 <h1>Welcome to my online webpage.</h1>
-<p>Feel free to look at some of my projects on github;</p>
+<h2>Feel free to look at some of my projects on github by clicking any of the links above. </h2>
+<h3>I am a student working towards my masters degree in computer science. My main focus is applications in
+computer vision with deep neural networks. However, I have experience in other areas, such as data science, data mining, other machine learning
+techniques, and much more. </h3>
 </body>
-   <div class="row">
+   <!--<div class="row">
       <div class="column"><h2> Tensorflow on a raspberry pi </h2>
          <p> Small project in relation to my thesis. Done using tensorflow, raspberry pi, and many other packages for python. To see the
             code, please follow this <a href = "https://github.com/rd16395p/tensormodeltoraspi">link.</a></p></div>
   <div class="column"><h2>Detecting Eye Lesions with Deep Neural Networks </h2>
      <p> Using a Convolutional Neural Networks for Diabetic Retinopathy detection with Mircoaneursyms. To see the
             code, please follow this<a href = "https://github.com/rd16395p/Detecting-Eye-LesionMircoaneursyms"> link. </a> </p></div>
-</div> 
+</div> --->
   <footer>
 
  Contact me at rydagostino@gmail.com
 
 </footer>
 </html>
-
