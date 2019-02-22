@@ -1,0 +1,22 @@
+{
+  "name": "rd16395p.github.io",
+  "version": "1.0.0",
+  "description": "Online portfolio landing page. Please visit at rd16395p.github.io .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rd16395p/rd16395p.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rd16395p/rd16395p.github.io/issues"
+  },
+  "homepage": "https://github.com/rd16395p/rd16395p.github.io#readme",
+  "dependencies": {
+    "nes.css": "^2.0.0"
+  }
+}
